@@ -1,0 +1,31 @@
+body {
+  background-color: #eaeaea;
+}
+
+.page-container {
+  display: flex;
+  justify-content: center;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  min-width: 600pt;
+  padding: 20pt;
+  height: 100vh;
+}
+
+.centered-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.text-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600pt;
+}
